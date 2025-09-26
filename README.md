@@ -21,7 +21,7 @@
 
 ### Блок-схема
 
-<img width="147" height="656" alt="lab_2" src="https://github.com/user-attachments/assets/31a14390-bb9f-4033-985b-7242894d73be" />
+<img width="163" height="541" alt="Диаграмма без названия drawio" src="https://github.com/user-attachments/assets/5e751844-38d2-4d6a-89d3-78296e46203d" />
 
 
 
@@ -31,19 +31,18 @@
 #include <stdio.h>
 #include <locale.h>
 
+
 int main() {
 	setlocale(LC_CTYPE, "RUS");
-	// объявление констант
-	
-	const int hodba = 4;
-	const int beg = hodba * 3;
-	
+	//задание переменных
+	int hodba = 4;
+	int beg = hodba * 3;
 	// задание конкретного значения расстояния(в км)
-	
-	int x = 36.0;
+
+	int x = 36;
 
 	//расчет времени
-	
+
 	int vremya = x / beg;
 
 	// форматированный вывод результатов
@@ -52,7 +51,7 @@ int main() {
 	printf("\n===========================================================");
 	printf("\n                        УСЛОВИЯ: \n");
 	printf("\nСкорость ходьбы: %d км/ч", hodba);
-	printf("\nСкорость бега в 3 раза больше скорости хотьбы: 4 *3 = %d",beg);
+	printf("\nСкорость бега в 3 раза больше скорости хотьбы: 4 *3 = %d", beg);
 	printf("\nРасстояние: %d км ", x);
 	printf("\n\n                      РАСЧЕТ:");
 	printf("\nРасстояние %d км поделить на скорость бега %d км/ч", x, beg);
