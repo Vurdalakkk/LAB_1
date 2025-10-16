@@ -22,7 +22,8 @@
 
 ### Блок-схема
 
-<img width="190" height="616" alt="Диаграмма без названия drawio(1)" src="https://github.com/user-attachments/assets/bf30cd5d-fde6-46d0-94bd-f2855e988c93" />
+<img width="230" height="713" alt="dz_2" src="https://github.com/user-attachments/assets/d3ee9807-113d-46ab-92c0-ad03750e56cd" />
+
 
 </div>
 
